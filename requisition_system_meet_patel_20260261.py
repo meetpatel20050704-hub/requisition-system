@@ -137,7 +137,7 @@ class Requisition:
                 pending += 1
 
             elif requisition.status == "Not approved":
-                not_approved += 1
+                not_approved += 2
 
         # Display the statistics
         print("Displaying the Requisition Statistics")
